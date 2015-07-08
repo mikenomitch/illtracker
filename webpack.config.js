@@ -4,7 +4,7 @@ var path = require('path');
 module.exports = {
   entry: "./client_app/main.js",
   output: {
-    publicPath: 'http://crayjs.herokuapp.com/',
+    publicPath: 'http://illtracker.herokuapp.com/',
     filename: "./app/assets/javascripts/bundle.js",
     libraryTarget: "umd"
   },

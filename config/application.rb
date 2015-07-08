@@ -6,7 +6,7 @@ require 'rails/all'
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
-module YOUR_APP_NAME
+module Illtracker
   class Application < Rails::Application
     # path or glob to webpack built assets
     config.webpack_build_path = 'app/assets/javascripts/bundle.js'
